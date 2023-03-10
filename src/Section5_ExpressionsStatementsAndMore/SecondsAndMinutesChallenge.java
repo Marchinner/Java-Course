@@ -24,9 +24,7 @@ public class SecondsAndMinutesChallenge {
             return "Invalid Value!";
         } else {
             int minutes = seconds / 60;
-            int hours = minutes / 60;
-            int remainingSeconds = seconds - (minutes * 60);
-            return hours + "h " + getDurationString(minutes, remainingSeconds);
+            return getDurationString(minutes, seconds);
         }
     }
 
@@ -35,7 +33,12 @@ public class SecondsAndMinutesChallenge {
         if (minutes < 0 && (seconds >= 0 && seconds < 60)) {
             return "Invalid Values!";
         } else {
-            return minutes + "m " + seconds + "s";
+            int hours = minutes / 60;
+
+            int remainingMinutes = minutes % 60;
+            int remainingSeconds = seconds % 60;
+
+            return hours + "h " + remainingMinutes + "m " + remainingSeconds + "s";
         }
     }
 }
