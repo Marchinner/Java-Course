@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="d07b406d-6b67-4534-94d1-0e7197d60e48" name="Changes" comment="Seconds and Minutes Challenge done!">
+    <list default="true" id="d07b406d-6b67-4534-94d1-0e7197d60e48" name="Changes" comment="Section 6 initialized.">
+      <change afterPath="$PROJECT_DIR$/src/Section6_ControlFlow/TheForLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/TheForLoopChallenge.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -39,7 +41,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "reference.settings.ide.settings.new.ui"
+    "settings.editor.selected.configurable": "preferences.lookFeel"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -87,7 +89,21 @@
       <option name="project" value="LOCAL" />
       <updated>1678477911011</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Section 5 complete!">
+      <created>1678728451295</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678728451295</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Section 6 initialized.">
+      <created>1678728514985</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678728514985</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,6 +122,8 @@
     <MESSAGE value="Exercises from Section 5 done!" />
     <MESSAGE value="Method Overloading and Challenges done!" />
     <MESSAGE value="Seconds and Minutes Challenge done!" />
-    <option name="LAST_COMMIT_MESSAGE" value="Seconds and Minutes Challenge done!" />
+    <MESSAGE value="Section 5 complete!" />
+    <MESSAGE value="Section 6 initialized." />
+    <option name="LAST_COMMIT_MESSAGE" value="Section 6 initialized." />
   </component>
 </project>
